@@ -1,0 +1,18 @@
+2021-12-13 12:32:20.061  INFO 7953 --- [main] c.e.s.SpringBootLoggingApplication       : Starting SpringBootLoggingApplication using Java 11.0.13 on Dhairya-Vostro-3590 with PID 7953 (/media/developerdhairya/HDD/DATA/spring-boot/spring-boot-logging/target/classes started by developerdhairya in /media/developerdhairya/HDD/DATA/spring-boot/spring-boot-logging)
+2021-12-13 12:32:20.063  INFO 7953 --- [main] c.e.s.SpringBootLoggingApplication       : No active profile set, falling back to default profiles: default
+2021-12-13 12:32:20.647  INFO 7953 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-13 12:32:20.653  INFO 7953 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-13 12:32:20.654  INFO 7953 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-13 12:32:20.694  INFO 7953 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-13 12:32:20.695  INFO 7953 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 603 ms
+2021-12-13 12:32:20.919  INFO 7953 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-13 12:32:20.929  INFO 7953 --- [main] c.e.s.SpringBootLoggingApplication       : Started SpringBootLoggingApplication in 1.252 seconds (JVM running for 2.086)
+2021-12-13 12:32:27.322  INFO 7953 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-13 12:32:27.323  INFO 7953 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-13 12:32:27.324  INFO 7953 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-13 12:32:27.352  INFO 7953 --- [http-nio-8080-exec-1] c.e.s.controller.LogController           : An info message
+2021-12-13 12:32:27.352  WARN 7953 --- [http-nio-8080-exec-1] c.e.s.controller.LogController           : A warn message
+2021-12-13 12:32:27.352 ERROR 7953 --- [http-nio-8080-exec-1] c.e.s.controller.LogController           : An error message
+2021-12-13 12:33:36.499  INFO 7953 --- [http-nio-8080-exec-3] c.e.s.controller.LogController           : An info message
+2021-12-13 12:33:36.500  WARN 7953 --- [http-nio-8080-exec-3] c.e.s.controller.LogController           : A warn message
+2021-12-13 12:33:36.501 ERROR 7953 --- [http-nio-8080-exec-3] c.e.s.controller.LogController           : An error message
