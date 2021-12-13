@@ -16,3 +16,63 @@
 2021-12-13 12:33:36.499  INFO 7953 --- [http-nio-8080-exec-3] c.e.s.controller.LogController           : An info message
 2021-12-13 12:33:36.500  WARN 7953 --- [http-nio-8080-exec-3] c.e.s.controller.LogController           : A warn message
 2021-12-13 12:33:36.501 ERROR 7953 --- [http-nio-8080-exec-3] c.e.s.controller.LogController           : An error message
+2021-12-13 12:43:06.343  INFO 8773 --- [main] c.e.s.SpringBootLoggingApplication       : Starting SpringBootLoggingApplication using Java 11.0.13 on Dhairya-Vostro-3590 with PID 8773 (/media/developerdhairya/HDD/DATA/spring-boot/spring-boot-logging/target/classes started by developerdhairya in /media/developerdhairya/HDD/DATA/spring-boot/spring-boot-logging)
+2021-12-13 12:43:06.346  INFO 8773 --- [main] c.e.s.SpringBootLoggingApplication       : No active profile set, falling back to default profiles: default
+2021-12-13 12:43:06.928  INFO 8773 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-13 12:43:06.933  INFO 8773 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-13 12:43:06.934  INFO 8773 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-13 12:43:06.976  INFO 8773 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-13 12:43:06.976  INFO 8773 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 597 ms
+2021-12-13 12:43:07.176  INFO 8773 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-13 12:43:07.185  INFO 8773 --- [main] c.e.s.SpringBootLoggingApplication       : Started SpringBootLoggingApplication in 1.184 seconds (JVM running for 1.767)
+2021-12-13 12:43:14.005  INFO 8773 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-13 12:43:14.006  INFO 8773 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-13 12:43:14.007  INFO 8773 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-13 12:43:14.034  INFO 8773 --- [http-nio-8080-exec-1] c.e.s.controller.LogController           : An info message org.slf4j.Logger com.example.springbootlogging.controller.LogController.logger
+2021-12-13 12:43:14.040  WARN 8773 --- [http-nio-8080-exec-1] c.e.s.controller.LogController           : A warn message
+2021-12-13 12:43:14.041 ERROR 8773 --- [http-nio-8080-exec-1] c.e.s.controller.LogController           : An error message
+2021-12-13 12:44:17.327  INFO 8893 --- [main] c.e.s.SpringBootLoggingApplication       : Starting SpringBootLoggingApplication using Java 11.0.13 on Dhairya-Vostro-3590 with PID 8893 (/media/developerdhairya/HDD/DATA/spring-boot/spring-boot-logging/target/classes started by developerdhairya in /media/developerdhairya/HDD/DATA/spring-boot/spring-boot-logging)
+2021-12-13 12:44:17.338  INFO 8893 --- [main] c.e.s.SpringBootLoggingApplication       : No active profile set, falling back to default profiles: default
+2021-12-13 12:44:17.953  INFO 8893 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-13 12:44:17.958  INFO 8893 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-13 12:44:17.959  INFO 8893 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-13 12:44:18.003  INFO 8893 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-13 12:44:18.003  INFO 8893 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 625 ms
+2021-12-13 12:44:18.212  INFO 8893 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-13 12:44:18.221  INFO 8893 --- [main] c.e.s.SpringBootLoggingApplication       : Started SpringBootLoggingApplication in 1.26 seconds (JVM running for 1.797)
+2021-12-13 12:44:23.198  INFO 8893 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-13 12:44:23.199  INFO 8893 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-13 12:44:23.201  INFO 8893 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-13 12:44:23.228  INFO 8893 --- [http-nio-8080-exec-1] c.e.s.controller.LogController           : An info message @org.springframework.web.bind.annotation.RestController(value="")
+2021-12-13 12:44:23.230  WARN 8893 --- [http-nio-8080-exec-1] c.e.s.controller.LogController           : A warn message
+2021-12-13 12:44:23.230 ERROR 8893 --- [http-nio-8080-exec-1] c.e.s.controller.LogController           : An error message
+2021-12-13 12:44:54.113  INFO 9016 --- [main] c.e.s.SpringBootLoggingApplication       : Starting SpringBootLoggingApplication using Java 11.0.13 on Dhairya-Vostro-3590 with PID 9016 (/media/developerdhairya/HDD/DATA/spring-boot/spring-boot-logging/target/classes started by developerdhairya in /media/developerdhairya/HDD/DATA/spring-boot/spring-boot-logging)
+2021-12-13 12:44:54.115  INFO 9016 --- [main] c.e.s.SpringBootLoggingApplication       : No active profile set, falling back to default profiles: default
+2021-12-13 12:44:54.717  INFO 9016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-13 12:44:54.722  INFO 9016 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-13 12:44:54.723  INFO 9016 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-13 12:44:54.755  INFO 9016 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-13 12:44:54.755  INFO 9016 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 597 ms
+2021-12-13 12:44:54.947  INFO 9016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-13 12:44:54.957  INFO 9016 --- [main] c.e.s.SpringBootLoggingApplication       : Started SpringBootLoggingApplication in 1.167 seconds (JVM running for 1.715)
+2021-12-13 12:45:05.399  INFO 9016 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-13 12:45:05.400  INFO 9016 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-13 12:45:05.401  INFO 9016 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-13 12:45:05.429  INFO 9016 --- [http-nio-8080-exec-1] c.e.s.controller.LogController           : An @org.springframework.web.bind.annotation.RestController(value="")info message{} {}
+2021-12-13 12:45:05.430  WARN 9016 --- [http-nio-8080-exec-1] c.e.s.controller.LogController           : A warn message
+2021-12-13 12:45:05.431 ERROR 9016 --- [http-nio-8080-exec-1] c.e.s.controller.LogController           : An error message
+2021-12-13 12:47:30.391  INFO 9186 --- [main] c.e.s.SpringBootLoggingApplication       : Starting SpringBootLoggingApplication using Java 11.0.13 on Dhairya-Vostro-3590 with PID 9186 (/media/developerdhairya/HDD/DATA/spring-boot/spring-boot-logging/target/classes started by developerdhairya in /media/developerdhairya/HDD/DATA/spring-boot/spring-boot-logging)
+2021-12-13 12:47:30.393  INFO 9186 --- [main] c.e.s.SpringBootLoggingApplication       : No active profile set, falling back to default profiles: default
+2021-12-13 12:47:31.002  INFO 9186 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-13 12:47:31.008  INFO 9186 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-13 12:47:31.009  INFO 9186 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-13 12:47:31.043  INFO 9186 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-13 12:47:31.043  INFO 9186 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 613 ms
+2021-12-13 12:47:31.317  INFO 9186 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-13 12:47:31.327  INFO 9186 --- [main] c.e.s.SpringBootLoggingApplication       : Started SpringBootLoggingApplication in 1.19 seconds (JVM running for 1.646)
+2021-12-13 12:47:37.159  INFO 9186 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-13 12:47:37.160  INFO 9186 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-13 12:47:37.161  INFO 9186 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-13 12:47:37.187  INFO 9186 --- [http-nio-8080-exec-1] c.e.s.controller.LogController           : An @org.springframework.web.bind.annotation.RestController(value="")info message @org.springframework.web.bind.annotation.RequestMapping(headers={}, path={}, method={}, produces={}, name="", params={}, value={"/"}, consumes={})
+2021-12-13 12:47:37.189  WARN 9186 --- [http-nio-8080-exec-1] c.e.s.controller.LogController           : A warn message
+2021-12-13 12:47:37.190 ERROR 9186 --- [http-nio-8080-exec-1] c.e.s.controller.LogController           : An error message
